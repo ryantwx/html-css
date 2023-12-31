@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping tags </title>
+    <style>
+        
+        body{
+            background-color: blanchedalmond;
+        }
+        header{
+            background-color: rgb(129, 122, 122);
+            height: 100px;
+            padding: 15px;
+          
+            color: aliceblue;
+        }
+        header > h1{
+            box-shadow: inset 19px -2px 9px 8px rgb(163, 156, 156);
+        }
+        nav {
+             background-color: rgb(61, 60, 60);
+             border-radius: 15px;
+             height: 30px;
+             box-shadow: 1px -6px 10px rgb(0, 0, 0);
+
+            }
+
+        nav > a {
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            margin-right: 30px;
+            margin-left: 10px;
+            
+        }
+
+        nav > a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            border-radius: 30px;
+            box-shadow: 4px 5px 15px black;
+        }
+        .conteudo{
+            margin-left: 6px;
+        }
+        .conteudo > p {
+            margin-left: 1px;
+        }
+       
+        article{
+            background-color: rgb(194, 194, 194);
+            border-radius: 10px;
+            
+        }
+        article > aside{
+            text-align: center;
+            color: brown;
+        }
+        footer{
+            background-color: black;
+            text-align: center;
+            color: white;
+            padding: 2px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        .bola{
+            background-color: rgb(0, 0, 0);
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site sobre comida </h1>
+        <nav>
+            <a href="link">aaaa</a>
+            <a href="link">aaaaa</a>
+             <a href="link">aaaaaa</a>
+             <a href="link">aaaaaaaaa</a>
+        </nav>
+
+    </header>
+    <br>
+    <main>
+        <section><p>esportes</p></section>
+        <article> 
+             <div class="conteudo">
+                 <h1>Arcos noticias </h1>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, corrupti ullam velit perspiciatis aliquid facilis delectus iusto maiores distinctio illum expedita amet, sint unde earum sunt! Voluptatibus odio dolorum fugiat.</p>
+             </div>
+                 <aside>
+                    <p>autor:ryan</p>
+                 </aside>
+        </article>
+      
+    </main>
+    <br>
+    <footer>
+        <p>Desenvolvido por mim</p>
+    </footer>
+    <div class="bola">
+
+    </div>
+    
+</body>
+</html>

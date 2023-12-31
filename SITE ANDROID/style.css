@@ -1,0 +1,171 @@
+@charset "UTF-8" ;
+
+@font-face {
+    font-family: 'android' ;
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+
+*{
+    background-attachment: fixed;
+    
+   
+   
+}
+body{
+   
+    background-color: #8cfc8cde;
+    margin: 0;
+    padding: 0;
+   
+}
+header {
+   
+    min-width: 373px;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    height: 143px;
+    text-align: center;
+    background: linear-gradient(to bottom, #22af0fd3, #1ab916da);
+    margin-top: -21px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 12px;
+   
+ }
+ 
+ 
+    
+    
+ 
+ header > nav {
+   
+    text-align: left;
+    margin-left: -12px;
+    margin-right: -12px;
+    height: 23px;
+     background-color: #149911;
+     padding: 3px;
+ }
+header a  {
+    padding: 3px;
+    margin: 12px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;   
+    transition-duration: 0.5s;                  
+ } 
+ header a:hover{        /*    link menu */
+    
+     padding-bottom: 9px;
+    margin-top: 12px;
+    background-color: #12662bcc;
+    border-radius: 8px;
+ }
+ main{
+    
+    max-width: 1000px;
+    min-width: 373px;
+    height: auto;
+    margin: auto;
+    margin-top: -15px;
+    background-color: whitesmoke;
+    
+ }
+ main > h1 {
+    padding: 12px;
+    font-family: 'android';
+    color: #256D1B;
+ }
+ main > p {
+   padding: 18px;
+   text-align: justify;
+   text-indent: 12px;
+   padding-top: 0px;
+   margin-top: -13px;
+
+ }
+ main > h2{
+
+    padding: 12px;
+    font-family: 'android';
+    color: #256D1B;
+    box-shadow: inset 498px -4px 109px -70px #8cf57e67;
+
+ }
+img {
+    padding-left: 10%;
+   
+}
+.bugdroid{
+    width: 50%;
+}
+.cab2{
+    background-color: #5dee5bc9;
+    height: 42px;
+
+    
+   
+
+}
+.cab2 > h3 {
+   text-indent: 13px;
+   padding-top: 8px;
+ 
+  
+}
+.lista{
+    background-color: #89f18980;
+   
+   
+}
+div{
+     border-radius: 10px;
+     max-width: 920px;
+     
+     min-width: 373px;
+     margin: auto; 
+     text-indent: 25px;
+     
+     text-align: justify;
+}
+div > p {
+    padding: 18px;
+    text-align: justify;
+    text-indent: 12px;
+    padding-top: 0px;
+    margin-top: 5px;
+}
+.link{
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+.listas-container {
+ columns: 2;
+    
+}
+
+ul {
+    list-style: none;
+    
+    margin: 0;
+}
+#lis{
+    padding-right: 190px;
+}
+footer{
+    /* rodape */
+    text-align: center;  
+    background-color: #256D1B;
+    padding: 12px;
+  
+}
+div  a {
+    /* link de informações adicionais */
+    background-color: #13991177;
+    text-decoration: underline;
+}
+
