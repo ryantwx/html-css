@@ -1,6 +1,54 @@
 @charset "UTF-8" ;
+/* Todas as demais medias
 
+typical devices breakpoints 
+Celular: de 600px ate768px
+tablet: 769 px ate 992px
+desktop; 992px ate 1200px
+tv:acima de 1200px
+
+*/
 
 @media print {
     
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body,html{
+       background-image: url('../back-tablet.jpg');
+    }
+
+    .ivi{
+        display: none;
+    }
+    #ph{
+      display: none;
+    
+      margin: auto;
+    }
+    #on{
+        display: block;
+        display: flex;
+        margin: auto;
+    }
+    
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    body , html{
+        background-image: url('../back-pc.jpg'); 
+    }
+    .ivi{
+        display: none;
+    }
+    #ph{
+      display: none;
+    
+      margin: auto;
+    }
+    #pc{
+        display: block;
+        display: flex;
+        margin: auto;
+    }
 }
