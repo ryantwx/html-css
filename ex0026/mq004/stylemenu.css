@@ -1,0 +1,42 @@
+@charset "UTF-8" ;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(100, 98, 98);
+    color: white;
+    text-align: center;
+   
+}
+h1{
+    padding: 10px;
+}
+ul{
+    display: block;
+   
+    list-style-type: none;
+}
+header > menu > ul > li{
+    padding: 5px;
+    list-style-type: none;
+}
+menu{
+    display: block;
+}
+header > menu > ul > li >a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: rgb(54, 52, 52);
+    border-radius: 10px;
+}
