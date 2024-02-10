@@ -9,8 +9,8 @@ body{
 main{
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
-    width: 260px;
-    height: 570px;
+    width: 250px;
+    height: 515px;
     margin: auto;
 }
 .topo{
@@ -24,11 +24,11 @@ main{
 
 .intd > p{
     text-align: justify;
-    padding: 5px;
-    margin-bottom: 30px;
+    padding: 3px;
+
 }
 .email{
-    margin-top: 5px;
+    margin-top: 0.12em;
    padding-top: -10px ;
    margin-left: 10px;
    margin-right: 10px;
