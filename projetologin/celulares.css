@@ -1,0 +1,48 @@
+@charset "UTF-8" ;
+
+
+body{
+    background-color: darkgrey;
+}
+
+main{
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 60vw;
+    height: 95vh;
+    margin: auto;
+}
+.topo{
+    border-radius: 20px 20px 0px 0px;
+    height: 200px;
+    background-image: url('img/pexels-ricardo-benitez-20174732\ \(1\).jpg');
+    background-size: cover;
+    background-position: center left;
+}
+
+
+.intd > p{
+    text-align: justify;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.email{
+   padding-top: 6px ;
+   margin-left: 10px;
+   margin-right: 10px;
+ 
+   
+}
+img{
+  
+     height: 30px;
+     width: 30px; 
+     margin-top: 10px;
+}
+#ilogin{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+

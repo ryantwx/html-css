@@ -1,0 +1,22 @@
+@charset "UTF-8" ;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.intd > h2 {
+    text-align: center;
+    padding: 7px;
+    font-family: sans-serif;
+}
+.email{
+    background-color: violet;
+    border-radius: 10px;
+   
+}
