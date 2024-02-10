@@ -9,8 +9,8 @@ body{
 main{
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
-    width: auto;
-    height: auto;
+    width: 250px;
+    height: 515px;
     margin: auto;
 }
 .topo{
@@ -31,9 +31,12 @@ main{
    padding-top: 6px ;
    margin-left: 10px;
    margin-right: 10px;
+   
+  
  
    
 }
+
 img{
   
      height: 30px;
@@ -43,7 +46,14 @@ img{
 #ilogin{
     background-color: aqua;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 10px; 
+     width: 120px;
+    
+}
+.login{
+    background-color: red;
+    
+  
 }
 
 
