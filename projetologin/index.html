@@ -23,13 +23,28 @@
             </div>
             <div class="login">
                 <form action="cadastro.php" method="post">
-                     <div class="email">
-                
-                        <i class="material-icons">person</i>
-                
-                        <label for="ilogin">Email</label>
-                        <input type="email" name="login" id="ilogin" placeholder="seu e-mail" autocomplete="email" required maxlength="40" min="40" >
-                     </div>
+                     <article>
+                         <div class="email">
+                            <i class="material-icons">person</i>
+                            <label for="ilogin">Email:</label>
+                            <input type="email" name="login" id="ilogin" class="ilogin2" placeholder="seu e-mail" autocomplete="email" required maxlength="40" min="40" >
+                         </div>
+                         <div class="email">
+                            <i class="material-icons">vpn_key</i>
+                            <label for="isenha">Senha:</label>
+                            <input type="password" name="Senha" id="isenha" class="ilogin2" placeholder="sua senha" required  minlength="8" maxlength="12">
+                         </div>
+                         <input type="submit" value="Cadastrar" id="enviar">
+                         <a href="" class="botao">Esqueci senha <i class="material-icons">mail</i>
+                                             
+                                             </a>
+                     </article>
+                  
+
+
+
+
+
                 </form>
             </div>
 

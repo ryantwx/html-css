@@ -16,7 +16,15 @@ main{
     font-family: sans-serif;
 }
 .email{
-    background-color: violet;
+    background-color: rgba(116, 17, 116, 0.877);
     border-radius: 10px;
    
+}
+#ilogin{
+    background-color: rgba(21, 216, 216, 0.842);
+
+}
+.ilogin2{
+    background-color: rgba(21, 216, 216, 0.842);
+
 }
