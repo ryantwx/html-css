@@ -1,3 +1,3 @@
 # html-css
- EStudos 
+ estudos 
  meu primeiro repositorio 

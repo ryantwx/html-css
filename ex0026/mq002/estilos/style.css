@@ -1,0 +1,15 @@
+@charset "UTF-8" ;
+/* Config Geral */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(55, 55, 201);
+   
+}
+
+html,body {
+    width: 100vw;
+    height: 100vh;
+}
