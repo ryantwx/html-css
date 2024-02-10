@@ -31,10 +31,11 @@ section#login{
     transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 515px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow:  0px 0px 10px black;
+    transition: width .1s, height .1s;
 
 }
 #login > #imagem{
@@ -46,4 +47,56 @@ section#login{
 section#login > div#formulario{
     display: block;
     padding: 10px;
+    border-radius: 8px;
+}
+input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botao{
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #63e2ded7;
+    border-radius: 8px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.campo{
+    background-color: #5f2c82;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 0px;
+}
+label{
+    display: none;
+}
+
+i{
+    color: white;
+    width: 40px;
+    padding: 8px;
+  
+    font-size: 3em;
+}
+.campo > input{
+    
+    background-color: #84bebd;
+    width: calc(100% - 50px);
+    font-size: 1em;
+    height: 100%;
+    border-radius: 8px;
+    transform: translateY(-5px); 
+    
+    border: 0px;
 }
